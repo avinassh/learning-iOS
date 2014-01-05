@@ -7,7 +7,7 @@
     x = a;
 }
 -(void) setImaginary: (double) b{
-    y = b
+    y = b;
 }
 -(void) print{
      // display as a + bi
