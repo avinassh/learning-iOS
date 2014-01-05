@@ -4,14 +4,12 @@
 int main (int argc, const char * argv[]) {
     @autoreleasepool { 
         XYPoint *mypoint = [[XYPoint alloc] init];
-        //[mypoint init]; //[[XYPoint alloc] init];
         mypoint.x = 5;
         mypoint.y = 10;
-        //NSLog (@"x is %d, y is %d", mypoint.x, mypoint.y); 
+        NSLog (@"x is %d, y is %d", mypoint.x, mypoint.y); 
     }
     return 0; 
-}
-*/
+} */
 
 #import <Foundation/Foundation.h>
 
