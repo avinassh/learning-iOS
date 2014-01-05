@@ -12,16 +12,20 @@
 -(double) accumulator {
     return accumulator; 
 }
--(void) add: (double) value {
-    accumulator += value; 
+-(double) add: (double) value {
+    accumulator += value;
+    return accumulator; 
 }
--(void) subtract: (double) value {
-    accumulator -= value; 
+-(double) subtract: (double) value {
+    accumulator -= value;
+    return accumulator; 
 }
--(void) multiply: (double) value {
-    accumulator *= value; 
+-(double) multiply: (double) value {
+    accumulator *= value;
+    return accumulator; 
 }
--(void) divide: (double) value {
-    accumulator /= value; 
+-(double) divide: (double) value {
+    accumulator /= value;
+    return accumulator; 
 }
 @end

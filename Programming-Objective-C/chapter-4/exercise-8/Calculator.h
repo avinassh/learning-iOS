@@ -7,8 +7,8 @@
 -(void) clear;
 -(double) accumulator;
 // arithmetic methods
--(void) add: (double) value; 
--(void) subtract: (double) value; 
--(void) multiply: (double) value; 
--(void) divide: (double) value;
+-(double) add: (double) value; 
+-(double) subtract: (double) value; 
+-(double) multiply: (double) value; 
+-(double) divide: (double) value;
 @end
