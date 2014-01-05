@@ -21,3 +21,6 @@ DerivedData
 
 # CocoaPods
 Pods
+
+# Objective C compiled files
+a.out
