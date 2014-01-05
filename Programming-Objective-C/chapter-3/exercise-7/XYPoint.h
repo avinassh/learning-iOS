@@ -1,8 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@interface XYPoint : NSObject
-
-@property (nonatomic) int x;
-@property (nonatomic) int y;
-
+@interface XYPoint: NSObject
+-(void) setX: (int) x;
+-(void) setY: (int) y;
 @end
